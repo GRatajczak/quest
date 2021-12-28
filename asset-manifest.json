@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/quest/static/js/main.94d55137.js",
-    "static/media/logo.svg": "/quest/static/media/logo.1b4dae64ab987c6b3791731f6d01bded.svg",
-    "static/media/quotation-mark.svg": "/quest/static/media/quotation-mark.bdc9dd350ff1d72c5ba55fcaaaacdad0.svg",
-    "index.html": "/quest/index.html",
-    "main.94d55137.js.map": "/quest/static/js/main.94d55137.js.map"
+    "main.js": "/static/js/main.f659fd6d.js",
+    "static/media/logo.svg": "/static/media/logo.1b4dae64ab987c6b3791731f6d01bded.svg",
+    "static/media/quotation-mark.svg": "/static/media/quotation-mark.bdc9dd350ff1d72c5ba55fcaaaacdad0.svg",
+    "index.html": "/index.html",
+    "main.f659fd6d.js.map": "/static/js/main.f659fd6d.js.map"
   },
   "entrypoints": [
-    "static/js/main.94d55137.js"
+    "static/js/main.f659fd6d.js"
   ]
 }
