@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/quest/static/js/main.07dd5d96.js",
+    "main.js": "/quest/static/js/main.8335bfd9.js",
     "static/media/logo.svg": "/quest/static/media/logo.1b4dae64ab987c6b3791731f6d01bded.svg",
     "static/media/quotation-mark.svg": "/quest/static/media/quotation-mark.bdc9dd350ff1d72c5ba55fcaaaacdad0.svg",
     "index.html": "/quest/index.html",
-    "main.07dd5d96.js.map": "/quest/static/js/main.07dd5d96.js.map"
+    "main.8335bfd9.js.map": "/quest/static/js/main.8335bfd9.js.map"
   },
   "entrypoints": [
-    "static/js/main.07dd5d96.js"
+    "static/js/main.8335bfd9.js"
   ]
 }
