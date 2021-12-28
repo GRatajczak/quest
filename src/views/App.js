@@ -7,6 +7,7 @@ import Header from '../components/global/Header/Header'
 import Home from './Home';
 import Solution from './Solution';
 import About from './About';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/about" >
               <About />
+            </Route>
+            <Route path="/contact" >
+              <Contact />
             </Route>
           </Switch>
       </ThemeProvider>

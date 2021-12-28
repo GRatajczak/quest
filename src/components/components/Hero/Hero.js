@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledHeroContainer } from './Hero.styled'
+import { StyledHeroContainer, StyledHeroWrapper } from './Hero.styled'
 import Title from '../../atoms/Title/Title'
 import Image from '../../atoms/Image/Image'
 import PropTypes from 'prop-types'
@@ -7,8 +7,10 @@ import PropTypes from 'prop-types'
 const Hero = ({title, imgSrc}) => {
     return (
         <StyledHeroContainer>
-            <Title> {title} </Title>
-            <Image src={imgSrc} />
+            <StyledHeroWrapper>
+                <Title> {title} </Title>
+                <Image src={imgSrc} alt="Hero image" />
+            </StyledHeroWrapper>
         </StyledHeroContainer>
     )
 }
@@ -20,7 +22,7 @@ Hero.propTypes = {
 Hero.defaultProps = {
     imgSrc: '',
     title: ''
-  };
-  
+};
+
 
 export default Hero;

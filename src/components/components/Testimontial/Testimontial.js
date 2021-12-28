@@ -2,22 +2,31 @@ import React from 'react'
 import {TestimontialContainer, TestimontialInnerWrapper ,StyledImage} from './Testimontial.styles'
 import questionMark from '../../../assets/quotation-mark.svg'
 import Paragraph from '../../atoms/Paragraph/Paragraph'
+import PropTypes from 'prop-types'
 
-const Testimontial = () => {
+const Testimontial = ({text, author}) => {
     return (
         <TestimontialContainer>
             <TestimontialInnerWrapper>
                 <StyledImage src={questionMark} />
                 <Paragraph>
-                    Torquatos nostros? quos dolores eos, qui studiose antiqua persequeris, claris et quasi naturalem. In quo enim inter mediocrem animadversionem atque insitam in malis dolor, non numquam. At vero eos et dolore suo sanciret.
+                    {text}
                 </Paragraph>
                 <Paragraph dark noMarginBottom>
-                    John Doe, Street Artist
+                    {author}
                 </Paragraph>
             </TestimontialInnerWrapper>
         </TestimontialContainer>
     )
 }
 
+Testimontial.propTypes = {
+    text: PropTypes.string,
+    author: PropTypes.string
+}
+Testimontial.defaultProps = {
+    text: '',
+    author: ''
+};
 
 export default Testimontial;

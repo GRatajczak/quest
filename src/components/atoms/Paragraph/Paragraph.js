@@ -12,7 +12,13 @@ export const Paragraph = styled.p`
     margin-left: ${({bigText}) => bigText ? 'auto' : '0px'};
     margin-right: ${({bigText}) => bigText ? 'auto' : '0px'};
 
-    color: ${({dark,theme}) => dark ? theme.colors.grey : theme.colors.lightGrey}
+    color: ${({dark,theme}) => dark ? theme.colors.grey : theme.colors.lightGrey};
+
+    @media (max-width: 800px){
+        font-size: ${({bigText}) => bigText ? '30px': '18px'};
+        line-height: ${({bigText}) => bigText ? '40px': '30px'};
+        margin-bottom: ${({noMarginBottom}) => noMarginBottom ? '0px' : '36px'};
+    }
 `;
 
 export default Paragraph;

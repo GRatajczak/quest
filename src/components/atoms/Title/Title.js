@@ -10,6 +10,12 @@ export const Title = styled.h1`
     max-width: 516px;
     margin-right: 24px;
     color:  ${({theme}) => theme.colors.black};
+    @media (max-width: 800px){
+        font-size: 28px;
+        line-height: 34px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
 `
 
 export default Title;

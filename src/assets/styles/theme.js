@@ -6,6 +6,7 @@ export const theme = {
         black: '#231E1E',
         success: '#5EDC4B',
         pink: '#DAC2F2',
+        darkPink: '#aa76de',
         error: '#CB8581',
     },
 };

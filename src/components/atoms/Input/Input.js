@@ -19,6 +19,12 @@ const Input = styled.input`
         font-size: 16px;
     }
 
+    @media (max-width: 800px){
+        margin-bottom: 20px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
 `;
 
 export default Input;
