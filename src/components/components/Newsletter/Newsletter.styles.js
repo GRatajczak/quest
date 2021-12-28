@@ -92,5 +92,6 @@ export const StyledNewsletterMessageInnerSpan = styled.span`
     transition: transform .3s;
     transform: ${({show}) => show ? 'translateY(0%)': 'translateY(100%)'};
     display: block;
+    text-align:center;
     color: ${({error, theme}) => error ? theme.colors.error : theme.colors.success}
 `;

@@ -45,7 +45,6 @@ const Newsletter = () => {
             setMessage(el.data.message);
         })
     }
-    console.log(valid);
     return (
         <StyledNewsletterContainer>
             <StyledNewsletterTitle>
